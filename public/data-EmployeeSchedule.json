@@ -1,0 +1,4052 @@
+[
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-01 08:00", "2021-01-01 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Richardson",
+    "employeeFirstName":"Bailey",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-01 08:00", "2021-01-01 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-01 18:00", "2021-01-02 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Poppy",
+    "employeeFirstName":"Daisy",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-01 18:00", "2021-01-02 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Nicholback",
+    "employeeFirstName":"Stich",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-02 08:00", "2021-01-02 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-02 08:00", "2021-01-02 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Branson",
+    "employeeFirstName":"Nugget",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-02 18:00", "2021-01-03 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-02 18:00", "2021-01-03 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Westbay",
+    "employeeFirstName":"Fluffy",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-03 08:00", "2021-01-03 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Nicholback",
+    "employeeFirstName":"Stich",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-03 08:00", "2021-01-03 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Westbay",
+    "employeeFirstName":"Fluffy",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-03 18:00", "2021-01-04 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Zlata",
+    "employeeFirstName":"Kiko",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-03 18:00", "2021-01-04 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Zlata",
+    "employeeFirstName":"Kiko",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-04 08:00", "2021-01-04 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Terray",
+    "employeeFirstName":"Millie",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-04 08:00", "2021-01-04 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Westbay",
+    "employeeFirstName":"Fluffy",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-04 18:00", "2021-01-05 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Poppy",
+    "employeeFirstName":"Daisy",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-04 18:00", "2021-01-05 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Tupp",
+    "employeeFirstName":"Pepe",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-05 08:00", "2021-01-05 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-05 08:00", "2021-01-05 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-05 18:00", "2021-01-06 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Tupp",
+    "employeeFirstName":"Pepe",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-05 18:00", "2021-01-06 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-06 08:00", "2021-01-06 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Zlata",
+    "employeeFirstName":"Kiko",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-06 08:00", "2021-01-06 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Zlata",
+    "employeeFirstName":"Kiko",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-06 18:00", "2021-01-07 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-06 18:00", "2021-01-07 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Zlata",
+    "employeeFirstName":"Kiko",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-07 08:00", "2021-01-07 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-07 08:00", "2021-01-07 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Zlata",
+    "employeeFirstName":"Kiko",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-07 18:00", "2021-01-08 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-07 18:00", "2021-01-08 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-08 08:00", "2021-01-08 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Richardson",
+    "employeeFirstName":"Bailey",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-08 08:00", "2021-01-08 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-08 18:00", "2021-01-09 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Poppy",
+    "employeeFirstName":"Daisy",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-08 18:00", "2021-01-09 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Nicholback",
+    "employeeFirstName":"Stich",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-09 08:00", "2021-01-09 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-09 08:00", "2021-01-09 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Branson",
+    "employeeFirstName":"Nugget",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-09 18:00", "2021-01-10 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-09 18:00", "2021-01-10 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Beamer",
+    "employeeFirstName":"Beanie",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-10 08:00", "2021-01-10 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Nicholback",
+    "employeeFirstName":"Stich",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-10 08:00", "2021-01-10 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Beamer",
+    "employeeFirstName":"Beanie",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-10 18:00", "2021-01-11 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Nicholback",
+    "employeeFirstName":"Stich",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-10 18:00", "2021-01-11 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Nicholback",
+    "employeeFirstName":"Stich",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-11 08:00", "2021-01-11 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Beamer",
+    "employeeFirstName":"Beanie",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-11 08:00", "2021-01-11 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Beamer",
+    "employeeFirstName":"Beanie",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-11 18:00", "2021-01-12 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Poppy",
+    "employeeFirstName":"Daisy",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-11 18:00", "2021-01-12 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Poppy",
+    "employeeFirstName":"Daisy",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-12 08:00", "2021-01-12 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-12 08:00", "2021-01-12 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Poppy",
+    "employeeFirstName":"Daisy",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-12 18:00", "2021-01-13 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-12 18:00", "2021-01-13 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-13 08:00", "2021-01-13 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Aldo",
+    "employeeFirstName":"Abbey",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-13 08:00", "2021-01-13 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-13 18:00", "2021-01-14 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Aldo",
+    "employeeFirstName":"Abbey",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-13 18:00", "2021-01-14 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Westbay",
+    "employeeFirstName":"Fluffy",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-14 08:00", "2021-01-14 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-14 08:00", "2021-01-14 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Westbay",
+    "employeeFirstName":"Fluffy",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-14 18:00", "2021-01-15 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-14 18:00", "2021-01-15 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-15 08:00", "2021-01-15 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Richardson",
+    "employeeFirstName":"Bailey",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-15 08:00", "2021-01-15 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-15 18:00", "2021-01-16 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Poppy",
+    "employeeFirstName":"Daisy",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-15 18:00", "2021-01-16 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Nicholback",
+    "employeeFirstName":"Stich",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-16 08:00", "2021-01-16 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-16 08:00", "2021-01-16 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Branson",
+    "employeeFirstName":"Nugget",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-16 18:00", "2021-01-17 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-16 18:00", "2021-01-17 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Beamer",
+    "employeeFirstName":"Beanie",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-17 08:00", "2021-01-17 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Nicholback",
+    "employeeFirstName":"Stich",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-17 08:00", "2021-01-17 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Beamer",
+    "employeeFirstName":"Beanie",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-17 18:00", "2021-01-18 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Branson",
+    "employeeFirstName":"Nugget",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-17 18:00", "2021-01-18 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Richardson",
+    "employeeFirstName":"Bailey",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-18 08:00", "2021-01-18 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Branson",
+    "employeeFirstName":"Nugget",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-18 08:00", "2021-01-18 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Beamer",
+    "employeeFirstName":"Beanie",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-18 18:00", "2021-01-19 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Poppy",
+    "employeeFirstName":"Daisy",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-18 18:00", "2021-01-19 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Tupp",
+    "employeeFirstName":"Pepe",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-19 08:00", "2021-01-19 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-19 08:00", "2021-01-19 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-19 18:00", "2021-01-20 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Tupp",
+    "employeeFirstName":"Pepe",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-19 18:00", "2021-01-20 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-20 08:00", "2021-01-20 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Westbay",
+    "employeeFirstName":"Fluffy",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-20 08:00", "2021-01-20 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Westbay",
+    "employeeFirstName":"Fluffy",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-20 18:00", "2021-01-21 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-20 18:00", "2021-01-21 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Benet",
+    "employeeFirstName":"Felix",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-21 08:00", "2021-01-21 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-21 08:00", "2021-01-21 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Benet",
+    "employeeFirstName":"Felix",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-21 18:00", "2021-01-22 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-21 18:00", "2021-01-22 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-22 08:00", "2021-01-22 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Richardson",
+    "employeeFirstName":"Bailey",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-22 08:00", "2021-01-22 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-22 18:00", "2021-01-23 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Poppy",
+    "employeeFirstName":"Daisy",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-22 18:00", "2021-01-23 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Nicholback",
+    "employeeFirstName":"Stich",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-23 08:00", "2021-01-23 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-23 08:00", "2021-01-23 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Branson",
+    "employeeFirstName":"Nugget",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-23 18:00", "2021-01-24 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-23 18:00", "2021-01-24 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Beamer",
+    "employeeFirstName":"Beanie",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-24 08:00", "2021-01-24 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Nicholback",
+    "employeeFirstName":"Stich",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-24 08:00", "2021-01-24 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Beamer",
+    "employeeFirstName":"Beanie",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-24 18:00", "2021-01-25 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Zlata",
+    "employeeFirstName":"Kiko",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-24 18:00", "2021-01-25 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Zlata",
+    "employeeFirstName":"Kiko",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-25 08:00", "2021-01-25 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Beamer",
+    "employeeFirstName":"Beanie",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-25 08:00", "2021-01-25 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Beamer",
+    "employeeFirstName":"Beanie",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-25 18:00", "2021-01-26 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Poppy",
+    "employeeFirstName":"Daisy",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-25 18:00", "2021-01-26 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Poppy",
+    "employeeFirstName":"Daisy",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-26 08:00", "2021-01-26 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-26 08:00", "2021-01-26 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Poppy",
+    "employeeFirstName":"Daisy",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-26 18:00", "2021-01-27 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-26 18:00", "2021-01-27 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-27 08:00", "2021-01-27 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Zlata",
+    "employeeFirstName":"Kiko",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-27 08:00", "2021-01-27 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-27 18:00", "2021-01-28 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Zlata",
+    "employeeFirstName":"Kiko",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-27 18:00", "2021-01-28 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Zlata",
+    "employeeFirstName":"Kiko",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-28 08:00", "2021-01-28 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-28 08:00", "2021-01-28 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Zlata",
+    "employeeFirstName":"Kiko",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-28 18:00", "2021-01-29 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-28 18:00", "2021-01-29 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-29 08:00", "2021-01-29 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Richardson",
+    "employeeFirstName":"Bailey",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-29 08:00", "2021-01-29 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-29 18:00", "2021-01-30 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Poppy",
+    "employeeFirstName":"Daisy",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-29 18:00", "2021-01-30 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Nicholback",
+    "employeeFirstName":"Stich",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-30 08:00", "2021-01-30 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-30 08:00", "2021-01-30 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Branson",
+    "employeeFirstName":"Nugget",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-30 18:00", "2021-01-31 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Dawson",
+    "employeeFirstName":"Cosmo",
+    "house":"1775 - Cochrane Lake",
+    "client":"JC",
+    "shift":["2021-01-30 18:00", "2021-01-31 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-01 08:00", "2021-01-01 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Tibbs",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-01 08:00", "2021-01-01 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-01 18:00", "2021-01-02 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Tibbs",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-02 08:00", "2021-01-02 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Branson",
+    "employeeFirstName":"Nugget",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-02 08:00", "2021-01-02 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Tibbs",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-02 18:00", "2021-01-03 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Benet",
+    "employeeFirstName":"Felix",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-03 08:00", "2021-01-03 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Branson",
+    "employeeFirstName":"Nugget",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-03 08:00", "2021-01-03 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Benet",
+    "employeeFirstName":"Felix",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-03 18:00", "2021-01-04 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Teddy",
+    "employeeFirstName":"Rosie",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-04 08:00", "2021-01-04 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Greer",
+    "employeeFirstName":"Pax",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-04 08:00", "2021-01-04 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Greer",
+    "employeeFirstName":"Pax",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-04 18:00", "2021-01-05 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Teddy",
+    "employeeFirstName":"Rosie",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-05 08:00", "2021-01-05 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Greer",
+    "employeeFirstName":"Pax",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-05 08:00", "2021-01-05 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Tibbs",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-05 18:00", "2021-01-06 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Tibbs",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-06 08:00", "2021-01-06 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Branson",
+    "employeeFirstName":"Nugget",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-06 08:00", "2021-01-06 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Branson",
+    "employeeFirstName":"Nugget",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-06 18:00", "2021-01-07 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Tibbs",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-07 08:00", "2021-01-07 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Greer",
+    "employeeFirstName":"Pax",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-07 08:00", "2021-01-07 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Tibbs",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-07 18:00", "2021-01-08 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-08 08:00", "2021-01-08 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Tibbs",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-08 08:00", "2021-01-08 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-08 18:00", "2021-01-09 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-09 08:00", "2021-01-09 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Greer",
+    "employeeFirstName":"Pax",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-09 08:00", "2021-01-09 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-09 18:00", "2021-01-10 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-10 08:00", "2021-01-10 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Branson",
+    "employeeFirstName":"Nugget",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-10 08:00", "2021-01-10 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-10 18:00", "2021-01-11 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Teddy",
+    "employeeFirstName":"Rosie",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-11 08:00", "2021-01-11 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Greer",
+    "employeeFirstName":"Pax",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-11 08:00", "2021-01-11 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Greer",
+    "employeeFirstName":"Pax",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-11 18:00", "2021-01-12 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Tibbs",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-12 08:00", "2021-01-12 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Greer",
+    "employeeFirstName":"Pax",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-12 08:00", "2021-01-12 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Tibbs",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-12 18:00", "2021-01-13 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Tibbs",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-13 08:00", "2021-01-13 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Branson",
+    "employeeFirstName":"Nugget",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-13 08:00", "2021-01-13 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Branson",
+    "employeeFirstName":"Nugget",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-13 18:00", "2021-01-14 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Beamer",
+    "employeeFirstName":"Beanie",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-14 08:00", "2021-01-14 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Greer",
+    "employeeFirstName":"Pax",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-14 08:00", "2021-01-14 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Beamer",
+    "employeeFirstName":"Beanie",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-14 18:00", "2021-01-15 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-15 08:00", "2021-01-15 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Beamer",
+    "employeeFirstName":"Beanie",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-15 08:00", "2021-01-15 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-15 18:00", "2021-01-16 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-16 08:00", "2021-01-16 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Branson",
+    "employeeFirstName":"Nugget",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-16 08:00", "2021-01-16 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-16 18:00", "2021-01-17 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-17 08:00", "2021-01-17 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Branson",
+    "employeeFirstName":"Nugget",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-17 08:00", "2021-01-17 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-17 18:00", "2021-01-18 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Beamer",
+    "employeeFirstName":"Beanie",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-18 08:00", "2021-01-18 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Greer",
+    "employeeFirstName":"Pax",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-18 08:00", "2021-01-18 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Greer",
+    "employeeFirstName":"Pax",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-18 18:00", "2021-01-19 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Tibbs",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-19 08:00", "2021-01-19 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Greer",
+    "employeeFirstName":"Pax",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-19 08:00", "2021-01-19 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Tibbs",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-19 18:00", "2021-01-20 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Tibbs",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-20 08:00", "2021-01-20 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Branson",
+    "employeeFirstName":"Nugget",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-20 08:00", "2021-01-20 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Branson",
+    "employeeFirstName":"Nugget",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-20 18:00", "2021-01-21 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Beamer",
+    "employeeFirstName":"Beanie",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-21 08:00", "2021-01-21 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Greer",
+    "employeeFirstName":"Pax",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-21 08:00", "2021-01-21 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Beamer",
+    "employeeFirstName":"Beanie",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-21 18:00", "2021-01-22 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-22 08:00", "2021-01-22 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Beamer",
+    "employeeFirstName":"Beanie",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-22 08:00", "2021-01-22 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-22 18:00", "2021-01-23 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-23 08:00", "2021-01-23 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Branson",
+    "employeeFirstName":"Nugget",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-23 08:00", "2021-01-23 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-23 18:00", "2021-01-24 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-24 08:00", "2021-01-24 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Branson",
+    "employeeFirstName":"Nugget",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-24 08:00", "2021-01-24 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-24 18:00", "2021-01-25 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Tibbs",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-25 08:00", "2021-01-25 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Greer",
+    "employeeFirstName":"Pax",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-25 08:00", "2021-01-25 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Greer",
+    "employeeFirstName":"Pax",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-25 18:00", "2021-01-26 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Tibbs",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-26 08:00", "2021-01-26 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Greer",
+    "employeeFirstName":"Pax",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-26 08:00", "2021-01-26 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Tibbs",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-26 18:00", "2021-01-27 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Tibbs",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-27 08:00", "2021-01-27 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Greer",
+    "employeeFirstName":"Pax",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-27 08:00", "2021-01-27 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Tibbs",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-27 18:00", "2021-01-28 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Beamer",
+    "employeeFirstName":"Beanie",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-28 08:00", "2021-01-28 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Greer",
+    "employeeFirstName":"Pax",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-28 08:00", "2021-01-28 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Beamer",
+    "employeeFirstName":"Beanie",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-28 18:00", "2021-01-29 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-29 08:00", "2021-01-29 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Beamer",
+    "employeeFirstName":"Beanie",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-29 08:00", "2021-01-29 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-29 18:00", "2021-01-30 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-30 08:00", "2021-01-30 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Branson",
+    "employeeFirstName":"Nugget",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-30 08:00", "2021-01-30 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Valerija",
+    "employeeFirstName":"Nadalee",
+    "house":"1775 - Cochrane Lake",
+    "client":"SC",
+    "shift":["2021-01-30 18:00", "2021-01-31 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Choy-Wu",
+    "employeeFirstName":"Lucky",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-01 08:00", "2021-01-01 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Ransu",
+    "employeeFirstName":"Rio",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-01 08:00", "2021-01-01 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Tibbs",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-01 18:00", "2021-01-02 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Ransu",
+    "employeeFirstName":"Rio",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-01 18:00", "2021-01-02 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Choy-Wu",
+    "employeeFirstName":"Lucky",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-02 08:00", "2021-01-02 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Ransu",
+    "employeeFirstName":"Rio",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-02 08:00", "2021-01-02 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Bardeau",
+    "employeeFirstName":"Scout",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-02 18:00", "2021-01-03 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Tilly",
+    "employeeFirstName":"Bella",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-02 18:00", "2021-01-03 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Tilly",
+    "employeeFirstName":"Bella",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-03 08:00", "2021-01-03 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-03 08:00", "2021-01-03 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-03 18:00", "2021-01-04 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-03 18:00", "2021-01-04 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-04 08:00", "2021-01-04 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-04 08:00", "2021-01-04 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-04 18:00", "2021-01-05 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-04 18:00", "2021-01-05 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-05 08:00", "2021-01-05 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-05 08:00", "2021-01-05 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-05 18:00", "2021-01-06 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-05 18:00", "2021-01-06 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Hemlock",
+    "employeeFirstName":"Chip",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-06 08:00", "2021-01-06 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-06 08:00", "2021-01-06 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Rickland",
+    "employeeFirstName":"Sami",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-06 18:00", "2021-01-07 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-06 18:00", "2021-01-07 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Finnagan",
+    "employeeFirstName":"Zera",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-07 08:00", "2021-01-07 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-07 08:00", "2021-01-07 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Rickland",
+    "employeeFirstName":"Sami",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-07 18:00", "2021-01-08 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Ransu",
+    "employeeFirstName":"Rio",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-07 18:00", "2021-01-08 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Choy-Wu",
+    "employeeFirstName":"Lucky",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-08 08:00", "2021-01-08 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Ransu",
+    "employeeFirstName":"Rio",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-08 08:00", "2021-01-08 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Tibbs",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-08 18:00", "2021-01-09 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Ransu",
+    "employeeFirstName":"Rio",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-08 18:00", "2021-01-09 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Choy-Wu",
+    "employeeFirstName":"Lucky",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-09 08:00", "2021-01-09 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Ransu",
+    "employeeFirstName":"Rio",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-09 08:00", "2021-01-09 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Bardeau",
+    "employeeFirstName":"Scout",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-09 18:00", "2021-01-10 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Tilly",
+    "employeeFirstName":"Bella",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-09 18:00", "2021-01-10 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Tilly",
+    "employeeFirstName":"Bella",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-10 08:00", "2021-01-10 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-10 08:00", "2021-01-10 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-10 18:00", "2021-01-11 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-10 18:00", "2021-01-11 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-11 08:00", "2021-01-11 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-11 08:00", "2021-01-11 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-11 18:00", "2021-01-12 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-11 18:00", "2021-01-12 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-12 08:00", "2021-01-12 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-12 08:00", "2021-01-12 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-12 18:00", "2021-01-13 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-12 18:00", "2021-01-13 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Hemlock",
+    "employeeFirstName":"Chip",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-13 08:00", "2021-01-13 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-13 08:00", "2021-01-13 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Rickland",
+    "employeeFirstName":"Sami",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-13 18:00", "2021-01-14 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Richardson",
+    "employeeFirstName":"Bailey",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-13 18:00", "2021-01-14 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Finnagan",
+    "employeeFirstName":"Zera",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-14 08:00", "2021-01-14 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-14 08:00", "2021-01-14 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Rickland",
+    "employeeFirstName":"Sami",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-14 18:00", "2021-01-15 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-14 18:00", "2021-01-15 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Choy-Wu",
+    "employeeFirstName":"Lucky",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-15 08:00", "2021-01-15 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Ransu",
+    "employeeFirstName":"Rio",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-15 08:00", "2021-01-15 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cadell",
+    "employeeFirstName":"Oddball",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-15 18:00", "2021-01-16 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Ransu",
+    "employeeFirstName":"Rio",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-15 18:00", "2021-01-16 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Choy-Wu",
+    "employeeFirstName":"Lucky",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-16 08:00", "2021-01-16 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Ransu",
+    "employeeFirstName":"Rio",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-16 08:00", "2021-01-16 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Heilyn",
+    "employeeFirstName":"Scooter",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-16 18:00", "2021-01-17 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cadell",
+    "employeeFirstName":"Oddball",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-16 18:00", "2021-01-17 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cadell",
+    "employeeFirstName":"Oddball",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-17 08:00", "2021-01-17 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-17 08:00", "2021-01-17 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cadell",
+    "employeeFirstName":"Oddball",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-17 18:00", "2021-01-18 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-17 18:00", "2021-01-18 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-18 08:00", "2021-01-18 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-18 08:00", "2021-01-18 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-18 18:00", "2021-01-19 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-18 18:00", "2021-01-19 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-19 08:00", "2021-01-19 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-19 08:00", "2021-01-19 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-19 18:00", "2021-01-20 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-19 18:00", "2021-01-20 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Hemlock",
+    "employeeFirstName":"Chip",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-20 08:00", "2021-01-20 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-20 08:00", "2021-01-20 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Rickland",
+    "employeeFirstName":"Sami",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-20 18:00", "2021-01-21 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Richardson",
+    "employeeFirstName":"Bailey",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-20 18:00", "2021-01-21 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Finnagan",
+    "employeeFirstName":"Zera",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-21 08:00", "2021-01-21 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-21 08:00", "2021-01-21 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Rickland",
+    "employeeFirstName":"Sami",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-21 18:00", "2021-01-22 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-21 18:00", "2021-01-22 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Choy-Wu",
+    "employeeFirstName":"Lucky",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-22 08:00", "2021-01-22 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Ransu",
+    "employeeFirstName":"Rio",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-22 08:00", "2021-01-22 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cadell",
+    "employeeFirstName":"Oddball",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-22 18:00", "2021-01-23 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Ransu",
+    "employeeFirstName":"Rio",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-22 18:00", "2021-01-23 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Choy-Wu",
+    "employeeFirstName":"Lucky",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-23 08:00", "2021-01-23 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Ransu",
+    "employeeFirstName":"Rio",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-23 08:00", "2021-01-23 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Richardson",
+    "employeeFirstName":"Bailey",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-23 18:00", "2021-01-24 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cadell",
+    "employeeFirstName":"Oddball",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-23 18:00", "2021-01-24 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cadell",
+    "employeeFirstName":"Oddball",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-24 08:00", "2021-01-24 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-24 08:00", "2021-01-24 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cadell",
+    "employeeFirstName":"Oddball",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-24 18:00", "2021-01-25 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-24 18:00", "2021-01-25 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-25 08:00", "2021-01-25 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-25 08:00", "2021-01-25 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-25 18:00", "2021-01-26 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-25 18:00", "2021-01-26 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-26 08:00", "2021-01-26 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-26 08:00", "2021-01-26 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-26 18:00", "2021-01-27 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-26 18:00", "2021-01-27 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Hemlock",
+    "employeeFirstName":"Chip",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-27 08:00", "2021-01-27 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Millie",
+    "employeeFirstName":"Lola",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-27 08:00", "2021-01-27 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Rickland",
+    "employeeFirstName":"Sami",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-27 18:00", "2021-01-28 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Richardson",
+    "employeeFirstName":"Bailey",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-27 18:00", "2021-01-28 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Finnagan",
+    "employeeFirstName":"Zera",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-28 08:00", "2021-01-28 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-28 08:00", "2021-01-28 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Rickland",
+    "employeeFirstName":"Sami",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-28 18:00", "2021-01-29 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Gobnet",
+    "employeeFirstName":"Chyna",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-28 18:00", "2021-01-29 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Choy-Wu",
+    "employeeFirstName":"Lucky",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-29 08:00", "2021-01-29 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Ransu",
+    "employeeFirstName":"Rio",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-29 08:00", "2021-01-29 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Tibbs",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-29 18:00", "2021-01-30 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Ransu",
+    "employeeFirstName":"Rio",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-29 18:00", "2021-01-30 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Choy-Wu",
+    "employeeFirstName":"Lucky",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-30 08:00", "2021-01-30 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Ransu",
+    "employeeFirstName":"Rio",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-30 08:00", "2021-01-30 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Bardeau",
+    "employeeFirstName":"Scout",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-30 18:00", "2021-01-31 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Tilly",
+    "employeeFirstName":"Bella",
+    "house":"1720 - Powell Street",
+    "client":"KH",
+    "shift":["2021-01-30 18:00", "2021-01-31 08:00"],
+    "sleepShift":"Yes",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Terray",
+    "employeeFirstName":"Millie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-01 08:00", "2021-01-01 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Bella",
+    "employeeFirstName":"Poppy",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-01 08:00", "2021-01-01 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Terray",
+    "employeeFirstName":"Millie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-01 18:00", "2021-01-02 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Bella",
+    "employeeFirstName":"Poppy",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-01 18:00", "2021-01-02 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-02 08:00", "2021-01-02 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Devitto",
+    "employeeFirstName":"Casper",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-02 08:00", "2021-01-02 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-02 18:00", "2021-01-03 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Devitto",
+    "employeeFirstName":"Casper",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-02 18:00", "2021-01-03 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-03 08:00", "2021-01-03 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-03 08:00", "2021-01-03 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-03 18:00", "2021-01-04 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-03 18:00", "2021-01-04 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-04 08:00", "2021-01-04 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-04 08:00", "2021-01-04 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Roope",
+    "employeeFirstName":"Squiggles",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-04 18:00", "2021-01-05 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-04 18:00", "2021-01-05 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Roope",
+    "employeeFirstName":"Squiggles",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-05 08:00", "2021-01-05 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-05 08:00", "2021-01-05 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Roope",
+    "employeeFirstName":"Squiggles",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-05 18:00", "2021-01-06 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-05 18:00", "2021-01-06 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-06 08:00", "2021-01-06 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Alfie",
+    "employeeFirstName":"Molly",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-06 08:00", "2021-01-06 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-06 18:00", "2021-01-07 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Alfie",
+    "employeeFirstName":"Molly",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-06 18:00", "2021-01-07 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Terray",
+    "employeeFirstName":"Millie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-07 08:00", "2021-01-07 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Wesley",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-07 08:00", "2021-01-07 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Terray",
+    "employeeFirstName":"Millie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-07 18:00", "2021-01-08 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Cayden",
+    "employeeFirstName":"Wesley",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-07 18:00", "2021-01-08 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Terray",
+    "employeeFirstName":"Millie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-08 08:00", "2021-01-08 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Bella",
+    "employeeFirstName":"Poppy",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-08 08:00", "2021-01-08 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Terray",
+    "employeeFirstName":"Millie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-08 18:00", "2021-01-09 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Bella",
+    "employeeFirstName":"Poppy",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-08 18:00", "2021-01-09 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-09 08:00", "2021-01-09 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Devitto",
+    "employeeFirstName":"Casper",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-09 08:00", "2021-01-09 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-09 18:00", "2021-01-10 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Devitto",
+    "employeeFirstName":"Casper",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-09 18:00", "2021-01-10 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-10 08:00", "2021-01-10 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-10 08:00", "2021-01-10 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-10 18:00", "2021-01-11 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-10 18:00", "2021-01-11 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-11 08:00", "2021-01-11 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-11 08:00", "2021-01-11 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Roope",
+    "employeeFirstName":"Squiggles",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-11 18:00", "2021-01-12 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-11 18:00", "2021-01-12 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Topsy",
+    "employeeFirstName":"Shadow",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-12 08:00", "2021-01-12 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-12 08:00", "2021-01-12 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Topsy",
+    "employeeFirstName":"Shadow",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-12 18:00", "2021-01-13 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-12 18:00", "2021-01-13 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-13 08:00", "2021-01-13 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Alfie",
+    "employeeFirstName":"Molly",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-13 08:00", "2021-01-13 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-13 18:00", "2021-01-14 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Alfie",
+    "employeeFirstName":"Molly",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-13 18:00", "2021-01-14 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Terray",
+    "employeeFirstName":"Millie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-14 08:00", "2021-01-14 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Alfie",
+    "employeeFirstName":"Molly",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-14 08:00", "2021-01-14 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Terray",
+    "employeeFirstName":"Millie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-14 18:00", "2021-01-15 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Alfie",
+    "employeeFirstName":"Molly",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-14 18:00", "2021-01-15 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Terray",
+    "employeeFirstName":"Millie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-15 08:00", "2021-01-15 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Bella",
+    "employeeFirstName":"Poppy",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-15 08:00", "2021-01-15 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Terray",
+    "employeeFirstName":"Millie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-15 18:00", "2021-01-16 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Bella",
+    "employeeFirstName":"Poppy",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-15 18:00", "2021-01-16 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-16 08:00", "2021-01-16 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Devitto",
+    "employeeFirstName":"Casper",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-16 08:00", "2021-01-16 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-16 18:00", "2021-01-17 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Devitto",
+    "employeeFirstName":"Casper",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-16 18:00", "2021-01-17 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-17 08:00", "2021-01-17 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-17 08:00", "2021-01-17 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-17 18:00", "2021-01-18 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-17 18:00", "2021-01-18 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-18 08:00", "2021-01-18 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-18 08:00", "2021-01-18 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Roope",
+    "employeeFirstName":"Squiggles",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-18 18:00", "2021-01-19 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-18 18:00", "2021-01-19 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Roope",
+    "employeeFirstName":"Squiggles",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-19 08:00", "2021-01-19 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-19 08:00", "2021-01-19 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Roope",
+    "employeeFirstName":"Squiggles",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-19 18:00", "2021-01-20 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-19 18:00", "2021-01-20 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-20 08:00", "2021-01-20 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Alfie",
+    "employeeFirstName":"Molly",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-20 08:00", "2021-01-20 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-20 18:00", "2021-01-21 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Alfie",
+    "employeeFirstName":"Molly",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-20 18:00", "2021-01-21 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Terray",
+    "employeeFirstName":"Millie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-21 08:00", "2021-01-21 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Alfie",
+    "employeeFirstName":"Molly",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-21 08:00", "2021-01-21 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Terray",
+    "employeeFirstName":"Millie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-21 18:00", "2021-01-22 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Alfie",
+    "employeeFirstName":"Molly",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-21 18:00", "2021-01-22 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Terray",
+    "employeeFirstName":"Millie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-22 08:00", "2021-01-22 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Bella",
+    "employeeFirstName":"Poppy",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-22 08:00", "2021-01-22 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Terray",
+    "employeeFirstName":"Millie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-22 18:00", "2021-01-23 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Bella",
+    "employeeFirstName":"Poppy",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-22 18:00", "2021-01-23 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-23 08:00", "2021-01-23 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Devitto",
+    "employeeFirstName":"Casper",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-23 08:00", "2021-01-23 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-23 18:00", "2021-01-24 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Devitto",
+    "employeeFirstName":"Casper",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-23 18:00", "2021-01-24 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-24 08:00", "2021-01-24 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-24 08:00", "2021-01-24 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-24 18:00", "2021-01-25 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-24 18:00", "2021-01-25 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-25 08:00", "2021-01-25 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-25 08:00", "2021-01-25 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Roope",
+    "employeeFirstName":"Squiggles",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-25 18:00", "2021-01-26 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-25 18:00", "2021-01-26 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Roope",
+    "employeeFirstName":"Squiggles",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-26 08:00", "2021-01-26 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-26 08:00", "2021-01-26 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Roope",
+    "employeeFirstName":"Squiggles",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-26 18:00", "2021-01-27 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Claire",
+    "employeeFirstName":"Cinnamon",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-26 18:00", "2021-01-27 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-27 08:00", "2021-01-27 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Alfie",
+    "employeeFirstName":"Molly",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-27 08:00", "2021-01-27 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-27 18:00", "2021-01-28 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Alfie",
+    "employeeFirstName":"Molly",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-27 18:00", "2021-01-28 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Terray",
+    "employeeFirstName":"Millie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-28 08:00", "2021-01-28 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Alfie",
+    "employeeFirstName":"Molly",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-28 08:00", "2021-01-28 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Terray",
+    "employeeFirstName":"Millie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-28 18:00", "2021-01-29 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Alfie",
+    "employeeFirstName":"Molly",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-28 18:00", "2021-01-29 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Terray",
+    "employeeFirstName":"Millie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-29 08:00", "2021-01-29 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Bella",
+    "employeeFirstName":"Poppy",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-29 08:00", "2021-01-29 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Terray",
+    "employeeFirstName":"Millie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-29 18:00", "2021-01-30 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Bella",
+    "employeeFirstName":"Poppy",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-29 18:00", "2021-01-30 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-30 08:00", "2021-01-30 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Devitto",
+    "employeeFirstName":"Casper",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-30 08:00", "2021-01-30 18:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Daisy",
+    "employeeFirstName":"Charlie",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"SL",
+    "shift":["2021-01-30 18:00", "2021-01-31 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  },
+  {
+    "employeeLastName":"Devitto",
+    "employeeFirstName":"Casper",
+    "house":"1755 - 4Plex Unit #2",
+    "client":"RM",
+    "shift":["2021-01-30 18:00", "2021-01-31 08:00"],
+    "sleepShift":"No",
+    "notes":"Random Note"
+  }
+]
