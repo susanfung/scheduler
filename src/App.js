@@ -51,20 +51,28 @@ class App extends Component {
   };
 
   render() {
+    const resourceMap = [
+      { resourceId: "1775", resourceTitle: 'Employee #1775' },
+      { resourceId: "1720", resourceTitle: 'Employee #1720' },
+      { resourceId: "1755", resourceTitle: 'Employee #1755' },
+    ]
+
     return (
-      <div className="App">
-        <Scheduler
-          defaultDate={moment().toDate()}
-          defaultView="week"
-          events={this.state.schedule}
-          localizer={localizer}
-          showMultiDayTimes
-          onEventDrop={this.onEventDrop}
-          onEventResize={this.onEventResize}
-          resizable
-          style={{ height: "100vh" }}
-        />
-      </div>
+      <Scheduler
+        defaultDate={moment().toDate()}
+        defaultView="week"
+        views={['month', 'week', 'day']}
+        showMultiDayTimes
+        events={this.state.schedule}
+        localizer={localizer}
+        resizable
+        style={{ height: "100vh" }}
+        resources={resourceMap}
+        resourceIdAccessor="resourceId"
+        resourceTitleAccessor="resourceTitle"
+        onEventDrop={this.onEventDrop}
+        onEventResize={this.onEventResize}
+      />
     );
   }
 }
