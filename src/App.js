@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import { Calendar, momentLocalizer } from "react-big-calendar";
 import moment from "moment";
 import withDragAndDrop from "react-big-calendar/lib/addons/dragAndDrop";
-
-import "./App.css";
 import "react-big-calendar/lib/addons/dragAndDrop/styles.css";
 import "react-big-calendar/lib/css/react-big-calendar.css";
+import 'antd/dist/antd.css';
+import { Spin } from 'antd';
 
 const localizer = momentLocalizer(moment);
 const Scheduler = withDragAndDrop(Calendar);
@@ -15,6 +15,7 @@ class App extends Component {
     super();
     this.state = {
       schedule: [],
+      loading: true,
       lastIndex: 0
     }
   };
@@ -58,21 +59,23 @@ class App extends Component {
     ]
 
     return (
-      <Scheduler
-        defaultDate={moment().toDate()}
-        defaultView="week"
-        views={['month', 'week', 'day']}
-        showMultiDayTimes
-        events={this.state.schedule}
-        localizer={localizer}
-        resizable
-        style={{ height: "100vh" }}
-        resources={resourceMap}
-        resourceIdAccessor="resourceId"
-        resourceTitleAccessor="resourceTitle"
-        onEventDrop={this.onEventDrop}
-        onEventResize={this.onEventResize}
-      />
+      <Spin spinning={this.state.loading} tip="Loading...">
+        <Scheduler
+          defaultDate={moment().toDate()}
+          defaultView="week"
+          views={['month', 'week', 'day']}
+          showMultiDayTimes
+          events={this.state.schedule}
+          localizer={localizer}
+          resizable
+          style={{ height: "100vh" }}
+          resources={resourceMap}
+          resourceIdAccessor="resourceId"
+          resourceTitleAccessor="resourceTitle"
+          onEventDrop={this.onEventDrop}
+          onEventResize={this.onEventResize}
+        />
+      </Spin>
     );
   }
 }
