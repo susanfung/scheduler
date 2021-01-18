@@ -69,6 +69,29 @@ class App extends Component {
           localizer={localizer}
           resizable
           style={{ height: "100vh" }}
+          eventPropGetter={event => {
+            let newStyle = {
+              color: 'black',
+              borderRadius: "8px",
+            };
+      
+            if (event.client === "JC"){
+              newStyle.backgroundColor = "#FFA69E"
+            } else if (event.client === "SC"){
+              newStyle.backgroundColor = "#3C91E6"
+            } else if (event.client === "KH"){
+              newStyle.backgroundColor = "#B8F2E6"
+            } else if (event.client === "SL"){
+              newStyle.backgroundColor = "#592E83"
+            } else if (event.client === "RM"){
+              newStyle.backgroundColor = "#426A5A"
+            }
+      
+            return {
+              className: "",
+              style: newStyle
+            };
+          }}
           resources={resourceMap}
           resourceIdAccessor="resourceId"
           resourceTitleAccessor="resourceTitle"
