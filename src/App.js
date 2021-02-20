@@ -45,20 +45,15 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('./data-EmployeeSchedule.json')
-      .then(response => response.json())
-      .then(result => {
-        const schedule = result.map(item => {
-          item.scheduleId = this.state.lastIndex;
-          item.title = item.employeeLastName + ", " + item.employeeFirstName;
-          item.start = moment(item.shift[0]).toDate();
-          item.end = moment(item.shift[1]).toDate();
-          this.setState({ lastIndex: this.state.lastIndex + 1});
-          return item;
-        })
-
-        this.setState({ schedule: schedule, loading: false })
+    fetch('./data-EmployeeScheduleModified.json')
+    .then(response => response.json())
+    .then(result => {
+      result.forEach(element => {
+        element.start = moment(element.start).toDate()
+        element.end = moment(element.end).toDate()
       })
+      this.setState({ schedule: result, loading: false })
+    })
   };
 
   render() {
