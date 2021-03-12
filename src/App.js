@@ -5,6 +5,7 @@ import withDragAndDrop from "react-big-calendar/lib/addons/dragAndDrop";
 import "react-big-calendar/lib/addons/dragAndDrop/styles.css";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import 'antd/dist/antd.css';
+import './App.css';
 import { Spin, Tag, Divider } from 'antd';
 
 const localizer = momentLocalizer(moment);
@@ -83,11 +84,32 @@ class App extends Component {
 
           <p>
             <span style={{ marginRight: 8 }}>Clients:</span>
-            <Tag color="#fd3153">1775 - JC</Tag>
-            <Tag color="#1ccb9e">1775 - SC</Tag>
-            <Tag color="#F480A8">1720 - KH</Tag>
-            <Tag color="#fda256">1755 - SL</Tag>
-            <Tag color="#8281fd">1755 - RM</Tag>
+            <span
+              className={
+                'client ' +
+                ((selectedTags.includes('Employee #1775')) ? '' : 'display')
+              }
+            >
+              <Tag color="#fd3153">1775 - JC</Tag>
+              <Tag color="#1ccb9e">1775 - SC</Tag>
+            </span>
+            <span
+              className={
+                'client ' +
+                ((selectedTags.includes('Employee #1720')) ? '' : 'display')
+              }
+            >
+              <Tag color="#F480A8">1720 - KH</Tag>
+            </span>
+            <span
+              className={
+                'client ' +
+                ((selectedTags.includes('Employee #1755')) ? '' : 'display')
+              }
+            >
+              <Tag color="#fda256">1755 - SL</Tag>
+              <Tag color="#8281fd">1755 - RM</Tag>
+            </span>
           </p>
         </div>
 
