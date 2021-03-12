@@ -45,7 +45,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('./data-EmployeeScheduleModified.json')
+    fetch('./data-EmployeeSchedule.json')
     .then(response => response.json())
     .then(result => {
       result.forEach(element => {
