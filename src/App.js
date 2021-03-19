@@ -8,6 +8,7 @@ import 'antd/dist/antd.css';
 import './App.css';
 import { Spin, Tag, Divider, Button } from 'antd';
 import { PlusOutlined } from '@ant-design/icons';
+import { default as AddNewSchedule } from "./components/AddNewSchedule";
 
 const localizer = momentLocalizer(moment);
 const Scheduler = withDragAndDrop(Calendar);
@@ -26,7 +27,8 @@ class App extends Component {
         { resourceId: "Employee #1775", resourceTitle: 'Employee #1775' },
         { resourceId: "Employee #1720", resourceTitle: 'Employee #1720' },
         { resourceId: "Employee #1755", resourceTitle: 'Employee #1755' },
-      ]
+      ],
+      visible: false
     }
   };
 
@@ -44,7 +46,7 @@ class App extends Component {
     console.log(data);
   };
 
-  handleChange(tag, checked) {
+  handleChange = (tag, checked) => {
     const { selectedTags } = this.state;
     const nextSelectedTags = checked ? [...selectedTags, tag] : selectedTags.filter(t => t !== tag);
     const nextResourceMap = [];
@@ -55,6 +57,14 @@ class App extends Component {
 
     this.setState({ selectedTags: nextSelectedTags, resourceMap: nextResourceMap });
   }
+
+  addNewSchedule = () => {
+    this.setState({ visible: true });
+  };
+
+  onCancel = () => {
+    this.setState({ visible: false });
+  };
 
   componentDidMount() {
     fetch('./data-EmployeeSchedule.json')
@@ -86,7 +96,12 @@ class App extends Component {
               </CheckableTag>
             ))}
             <span style={{ float: "right" }}>
-              <Button type="primary" shape="circle" icon={<PlusOutlined />} />
+              <Button
+                type="primary"
+                shape="circle"
+                icon={<PlusOutlined />}
+                onClick={this.addNewSchedule}
+              />
             </span>
           </p>
 
@@ -163,6 +178,11 @@ class App extends Component {
             onEventResize={this.onEventResize}
           />
         </Spin>
+
+        <AddNewSchedule
+          visible={this.state.visible}
+          onCancel={this.onCancel}
+        />
       </>
     );
   }
