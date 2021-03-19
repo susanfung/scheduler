@@ -21,7 +21,11 @@ class App extends Component {
       schedule: [],
       loading: true,
       selectedTags: employeeTagsData,
-      lastIndex: 0
+      resourceMap: [
+        { resourceId: "Employee #1775", resourceTitle: 'Employee #1775' },
+        { resourceId: "Employee #1720", resourceTitle: 'Employee #1720' },
+        { resourceId: "Employee #1755", resourceTitle: 'Employee #1755' },
+      ]
     }
   };
 
@@ -41,8 +45,14 @@ class App extends Component {
 
   handleChange(tag, checked) {
     const { selectedTags } = this.state;
-    const nextselectedTags = checked ? [...selectedTags, tag] : selectedTags.filter(t => t !== tag);
-    this.setState({ selectedTags: nextselectedTags });
+    const nextSelectedTags = checked ? [...selectedTags, tag] : selectedTags.filter(t => t !== tag);
+    const nextResourceMap = [];
+    nextSelectedTags.map(item => {
+      nextResourceMap.push({resourceId: item, resourceTitle: item});
+      return item;
+    });
+
+    this.setState({ selectedTags: nextSelectedTags, resourceMap: nextResourceMap });
   }
 
   componentDidMount() {
@@ -58,13 +68,7 @@ class App extends Component {
   };
 
   render() {
-    const resourceMap = [
-      { resourceId: "1775", resourceTitle: 'Employee #1775' },
-      { resourceId: "1720", resourceTitle: 'Employee #1720' },
-      { resourceId: "1755", resourceTitle: 'Employee #1755' },
-    ]
-
-    const { selectedTags } = this.state;
+    const { selectedTags, resourceMap } = this.state;
 
     return (
       <>
