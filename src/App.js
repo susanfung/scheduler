@@ -6,7 +6,8 @@ import "react-big-calendar/lib/addons/dragAndDrop/styles.css";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import 'antd/dist/antd.css';
 import './App.css';
-import { Spin, Tag, Divider } from 'antd';
+import { Spin, Tag, Divider, Button } from 'antd';
+import { PlusOutlined } from '@ant-design/icons';
 
 const localizer = momentLocalizer(moment);
 const Scheduler = withDragAndDrop(Calendar);
@@ -84,6 +85,9 @@ class App extends Component {
                 {tag}
               </CheckableTag>
             ))}
+            <span style={{ float: "right" }}>
+              <Button type="primary" shape="circle" icon={<PlusOutlined />} />
+            </span>
           </p>
 
           <p>
