@@ -14,7 +14,12 @@ const localizer = momentLocalizer(moment);
 const Scheduler = withDragAndDrop(Calendar);
 const { CheckableTag } = Tag;
 
-const employeeTagsData = ['Employee #1775', 'Employee #1720', 'Employee #1755'];
+const employeeTagsData = ['Employee #1720', 'Employee #1755', 'Employee #1775'];
+const clientData = {
+  "Employee #1720": ['KH'],
+  "Employee #1755": ['SL', 'RM'],
+  "Employee #1775": ['JC', 'SC'],
+}
 
 class App extends Component {
   constructor() {
@@ -24,10 +29,11 @@ class App extends Component {
       loading: true,
       selectedTags: employeeTagsData,
       resourceMap: [
-        { resourceId: "Employee #1775", resourceTitle: 'Employee #1775' },
         { resourceId: "Employee #1720", resourceTitle: 'Employee #1720' },
         { resourceId: "Employee #1755", resourceTitle: 'Employee #1755' },
+        { resourceId: "Employee #1775", resourceTitle: 'Employee #1775' },
       ],
+      employee: [],
       visible: false
     }
   };
@@ -64,6 +70,10 @@ class App extends Component {
 
   onCancel = () => {
     this.setState({ visible: false });
+  };
+
+  handleHouseChange = value => {
+    this.setState({ employee: clientData[value]});
   };
 
   componentDidMount() {
@@ -110,15 +120,6 @@ class App extends Component {
             <span
               className={
                 'client ' +
-                ((selectedTags.includes('Employee #1775')) ? '' : 'display')
-              }
-            >
-              <Tag color="#fd3153">1775 - JC</Tag>
-              <Tag color="#1ccb9e">1775 - SC</Tag>
-            </span>
-            <span
-              className={
-                'client ' +
                 ((selectedTags.includes('Employee #1720')) ? '' : 'display')
               }
             >
@@ -132,6 +133,15 @@ class App extends Component {
             >
               <Tag color="#fda256">1755 - SL</Tag>
               <Tag color="#8281fd">1755 - RM</Tag>
+            </span>
+            <span
+              className={
+                'client ' +
+                ((selectedTags.includes('Employee #1775')) ? '' : 'display')
+              }
+            >
+              <Tag color="#fd3153">1775 - JC</Tag>
+              <Tag color="#1ccb9e">1775 - SC</Tag>
             </span>
           </p>
         </div>
@@ -182,6 +192,9 @@ class App extends Component {
         <AddNewSchedule
           visible={this.state.visible}
           onCancel={this.onCancel}
+          handleHouseChange={this.handleHouseChange}
+          employeeTagsData={employeeTagsData}
+          employee={this.state.employee}
         />
       </>
     );

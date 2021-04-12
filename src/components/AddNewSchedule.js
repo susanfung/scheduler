@@ -1,27 +1,83 @@
 import React from 'react';
-import { Modal } from 'antd';
+import {
+  Modal,
+  Form,
+  Input,
+  DatePicker,
+  Select
+} from 'antd';
 
-const AddNewSchedule = ({ visible, onCancel }) => {
+const { RangePicker } = DatePicker;
+const { Option } = Select;
+
+const AddNewSchedule = ({ visible, onCancel, handleHouseChange, employee, employeeTagsData }) => {
+  const [form] = Form.useForm();
+
+  const handleFormValuesChange = (changedValues) => {
+    const formFieldName = Object.keys(changedValues)[0];
+    if (formFieldName === "employee") {
+      handleHouseChange(changedValues.employee);
+      form.setFieldsValue({client: undefined})
+    }
+  };
+  
   return (
     <Modal
       visible={visible}
+      title={<div>Add New Schedule</div>}
+      width={1000}
       onCancel={onCancel}
+      onOk={onCancel}
     >
-      <div className="about">
-        <div class="container">
-          <div class="row align-items-center my-5">
-            <div class="col-lg-5">
-              <h1 class="font-weight-light">Add New Schedule</h1>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of
-                type and scrambled it to make a type specimen book.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Form form={form} onValuesChange={handleFormValuesChange}>
+        <Form.Item
+          name="lastName"
+          label="Last Name"
+          rules={[{ required: true, message: "This information is required." }]}
+        >
+          <Input />
+        </Form.Item>
+
+        <Form.Item
+          name="firstName"
+          label="First Name"
+          rules={[{ required: true, message: "This information is required." }]}
+        >
+          <Input />
+        </Form.Item>
+
+        <Form.Item
+          name="employee"
+          label="Employee #"
+          rules={[{ required: true, message: "This information is required." }]}
+        >
+          <Select>
+            {employeeTagsData.map(employee => (
+              <Option key={employee}>{employee}</Option>
+            ))}
+          </Select>
+        </Form.Item>
+
+        <Form.Item
+          name="client"
+          label="Client"
+          rules={[{ required: true, message: "This information is required." }]}
+        >
+          <Select>
+            {employee.map(client => (
+              <Option key={client}>{client}</Option>
+            ))}
+          </Select>
+        </Form.Item>
+
+        <Form.Item
+          name="dates"
+          label="Shift"
+          rules={[{ required: true, message: "This information is required." }]}
+        >
+          <RangePicker showTime />
+        </Form.Item>
+      </Form>
     </Modal>
   );
 };
