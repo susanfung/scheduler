@@ -10,13 +10,13 @@ import {
 const { RangePicker } = DatePicker;
 const { Option } = Select;
 
-const AddNewSchedule = ({ visible, onCancel, handleHouseChange, employee, employeeTagsData }) => {
+const AddNewSchedule = ({ visible, onCancel, handleHouseChange, addSchedule, employee, employeeTagsData }) => {
   const [form] = Form.useForm();
 
   const handleFormValuesChange = (changedValues) => {
     const formFieldName = Object.keys(changedValues)[0];
-    if (formFieldName === "employee") {
-      handleHouseChange(changedValues.employee);
+    if (formFieldName === "resourceId") {
+      handleHouseChange(changedValues.resourceId);
       form.setFieldsValue({client: undefined})
     }
   };
@@ -27,7 +27,17 @@ const AddNewSchedule = ({ visible, onCancel, handleHouseChange, employee, employ
       title={<div>Add New Schedule</div>}
       width={1000}
       onCancel={onCancel}
-      onOk={onCancel}
+      onOk={() => {
+        form
+          .validateFields()
+          .then((values) => {
+            form.resetFields();
+            addSchedule(values);
+          })
+          .catch((info) => {
+            console.log('Validate Failed:', info);
+          });
+      }}
     >
       <Form form={form} onValuesChange={handleFormValuesChange}>
         <Form.Item
@@ -47,7 +57,7 @@ const AddNewSchedule = ({ visible, onCancel, handleHouseChange, employee, employ
         </Form.Item>
 
         <Form.Item
-          name="employee"
+          name="resourceId"
           label="Employee #"
           rules={[{ required: true, message: "This information is required." }]}
         >

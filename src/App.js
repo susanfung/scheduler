@@ -34,7 +34,8 @@ class App extends Component {
         { resourceId: "Employee #1775", resourceTitle: 'Employee #1775' },
       ],
       employee: [],
-      visible: false
+      visible: false,
+      lastScheduleIndex: 450
     }
   };
 
@@ -50,6 +51,14 @@ class App extends Component {
 
   onEventDrop = (data) => {
     console.log(data);
+  };
+
+  onCancel = () => {
+    this.setState({ visible: false });
+  };
+
+  handleHouseChange = value => {
+    this.setState({ employee: clientData[value]});
   };
 
   handleChange = (tag, checked) => {
@@ -68,12 +77,19 @@ class App extends Component {
     this.setState({ visible: true });
   };
 
-  onCancel = () => {
-    this.setState({ visible: false });
-  };
+  addSchedule = newSchedule => {
+    let tempSchedules = this.state.schedule;
 
-  handleHouseChange = value => {
-    this.setState({ employee: clientData[value]});
+    let newTempSchedule = {
+      ...newSchedule,
+      title: newSchedule.lastName + ", " + newSchedule.firstName,
+      start: moment(newSchedule.dates[0]).toDate(),
+      end: moment(newSchedule.dates[1]).toDate(),
+      scheduleId: this.state.lastScheduleIndex
+    }
+
+    tempSchedules.unshift(newTempSchedule);
+    this.setState({ schedule: tempSchedules, lastScheduleIndex: this.state.lastScheduleIndex + 1, visible: false});
   };
 
   componentDidMount() {
@@ -195,6 +211,7 @@ class App extends Component {
           handleHouseChange={this.handleHouseChange}
           employeeTagsData={employeeTagsData}
           employee={this.state.employee}
+          addSchedule={this.addSchedule}
         />
       </>
     );
