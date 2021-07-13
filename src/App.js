@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import { Calendar, momentLocalizer } from "react-big-calendar";
 import moment from "moment";
+import { findIndex } from 'lodash';
+import { Calendar, momentLocalizer } from "react-big-calendar";
 import withDragAndDrop from "react-big-calendar/lib/addons/dragAndDrop";
 import "react-big-calendar/lib/addons/dragAndDrop/styles.css";
 import "react-big-calendar/lib/css/react-big-calendar.css";
@@ -41,19 +42,16 @@ class App extends Component {
     }
   };
 
-  onEventResize = (data) => {
-    const { start, end } = data;
-
-    this.setState((state) => {
-      state.events[0].start = start;
-      state.events[0].end = end;
-      return { events: [...state.events] };
-    });
-  };
-
-  onEventDrop = (data) => {
-    console.log(data);
-  };
+  addNewScheduleComponent = (props) => {
+    return (
+      <AddNewSchedule
+        {...props}
+        onCancel={this.onCancel}
+        handleHouseChange={this.handleHouseChange}
+        employeeTagsData={employeeTagsData}
+        addSchedule={this.addSchedule}
+      />
+  )};
 
   onCancel = () => {
     this.setState({ visible: false });
@@ -73,7 +71,7 @@ class App extends Component {
     });
 
     this.setState({ selectedTags: nextSelectedTags, resourceMap: nextResourceMap });
-  }
+  };
 
   addNewSchedule = e => {
     this.setState({ visible: true, resourceId: e.resourceId });
@@ -98,16 +96,20 @@ class App extends Component {
     this.setState({ schedule: tempSchedules, lastScheduleIndex: this.state.lastScheduleIndex + 1, visible: false});
   };
 
-  addNewScheduleComponent = (props) => {
-    return (
-      <AddNewSchedule
-        {...props}
-        onCancel={this.onCancel}
-        handleHouseChange={this.handleHouseChange}
-        employeeTagsData={employeeTagsData}
-        addSchedule={this.addSchedule}
-      />
-  )}
+  updateSchedule = e => {
+    let tempSchedules = this.state.schedule;
+    let scheduleIndex = findIndex(this.state.schedule, {
+      scheduleId: e.event.scheduleId
+    });
+
+    tempSchedules[scheduleIndex] = {
+      ...tempSchedules[scheduleIndex],
+      start: moment(e.start).toDate(),
+      end: moment(e.end).toDate(),
+    }
+
+    this.setState({ schedule: tempSchedules });
+  };
 
   componentDidMount() {
     fetch('./data-EmployeeSchedule.json')
@@ -218,8 +220,7 @@ class App extends Component {
             resources={resourceMap}
             resourceIdAccessor="resourceId"
             resourceTitleAccessor="resourceTitle"
-            onEventDrop={this.onEventDrop}
-            onEventResize={this.onEventResize}
+            onEventDrop={this.updateSchedule}
             onSelectSlot={this.addNewSchedule}
           />
         </Spin>
