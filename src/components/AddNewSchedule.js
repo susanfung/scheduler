@@ -10,7 +10,7 @@ import {
 const { RangePicker } = DatePicker;
 const { Option } = Select;
 
-const AddNewSchedule = ({ visible, onCancel, handleHouseChange, addSchedule, employee, employeeTagsData }) => {
+const AddNewSchedule = ({ visible, onCancel, handleHouseChange, addSchedule, employee, employeeTagsData, resourceId, dates }) => {
   const [form] = Form.useForm();
 
   const handleFormValuesChange = (changedValues) => {
@@ -60,6 +60,7 @@ const AddNewSchedule = ({ visible, onCancel, handleHouseChange, addSchedule, emp
           name="resourceId"
           label="Employee #"
           rules={[{ required: true, message: "This information is required." }]}
+          initialValue={resourceId}
         >
           <Select>
             {employeeTagsData.map(employee => (
@@ -82,10 +83,11 @@ const AddNewSchedule = ({ visible, onCancel, handleHouseChange, addSchedule, emp
 
         <Form.Item
           name="dates"
-          label="Shift"
+          label="Time"
           rules={[{ required: true, message: "This information is required." }]}
+          initialValue={dates}
         >
-          <RangePicker showTime />
+          <RangePicker showTime={{ format: 'HH:mm' }} format="YYYY-MM-DD HH:mm" />
         </Form.Item>
       </Form>
     </Modal>

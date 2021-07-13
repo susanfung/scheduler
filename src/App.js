@@ -35,7 +35,9 @@ class App extends Component {
       ],
       employee: [],
       visible: false,
-      lastScheduleIndex: 450
+      lastScheduleIndex: 450,
+      resourceId: null,
+      dates: []
     }
   };
 
@@ -73,8 +75,12 @@ class App extends Component {
     this.setState({ selectedTags: nextSelectedTags, resourceMap: nextResourceMap });
   }
 
-  addNewSchedule = () => {
-    this.setState({ visible: true });
+  addNewSchedule = e => {
+    this.setState({ visible: true, resourceId: e.resourceId });
+    ((e.resourceId === undefined) ?
+      this.setState({ employee: [], dates: [] }) :
+      this.setState({ employee: clientData[e.resourceId], dates: [moment(e.start), moment(e.end)] })
+    );
   };
 
   addSchedule = newSchedule => {
@@ -91,6 +97,17 @@ class App extends Component {
     tempSchedules.unshift(newTempSchedule);
     this.setState({ schedule: tempSchedules, lastScheduleIndex: this.state.lastScheduleIndex + 1, visible: false});
   };
+
+  addNewScheduleComponent = (props) => {
+    return (
+      <AddNewSchedule
+        {...props}
+        onCancel={this.onCancel}
+        handleHouseChange={this.handleHouseChange}
+        employeeTagsData={employeeTagsData}
+        addSchedule={this.addSchedule}
+      />
+  )}
 
   componentDidMount() {
     fetch('./data-EmployeeSchedule.json')
@@ -166,13 +183,14 @@ class App extends Component {
         
         <Spin spinning={this.state.loading} tip="Loading...">
           <Scheduler
+            selectable
+            resizable
             defaultDate={moment().toDate()}
             defaultView="week"
             views={['month', 'week', 'day']}
             showMultiDayTimes
             events={this.state.schedule}
             localizer={localizer}
-            resizable
             style={{ height: "100vh" }}
             eventPropGetter={event => {
               let newStyle = {
@@ -202,17 +220,15 @@ class App extends Component {
             resourceTitleAccessor="resourceTitle"
             onEventDrop={this.onEventDrop}
             onEventResize={this.onEventResize}
+            onSelectSlot={this.addNewSchedule}
           />
         </Spin>
 
-        <AddNewSchedule
-          visible={this.state.visible}
-          onCancel={this.onCancel}
-          handleHouseChange={this.handleHouseChange}
-          employeeTagsData={employeeTagsData}
-          employee={this.state.employee}
-          addSchedule={this.addSchedule}
-        />
+        {this.state.dates.length > 0 && (
+          this.addNewScheduleComponent(this.state)
+        )}
+
+        {this.addNewScheduleComponent(this.state)}
       </>
     );
   }
