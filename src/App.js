@@ -42,6 +42,30 @@ class App extends Component {
     }
   };
 
+  eventPropGetter = event => {
+    let newStyle = {
+      color: "black",
+      borderRadius: "8px",
+    };
+
+    if (event.client === "JC"){
+      newStyle.backgroundColor = "#fd3153"
+    } else if (event.client === "SC"){
+      newStyle.backgroundColor = "#1ccb9e"
+    } else if (event.client === "KH"){
+      newStyle.backgroundColor = "#F480A8"
+    } else if (event.client === "SL"){
+      newStyle.backgroundColor = "#fda256"
+    } else if (event.client === "RM"){
+      newStyle.backgroundColor = "#8281fd"
+    }
+
+    return {
+      className: "",
+      style: newStyle
+    };
+  };
+
   addNewScheduleComponent = (props) => {
     return (
       <AddNewSchedule
@@ -97,6 +121,7 @@ class App extends Component {
   };
 
   updateSchedule = e => {
+    console.log(e);
     let tempSchedules = this.state.schedule;
     let scheduleIndex = findIndex(this.state.schedule, {
       scheduleId: e.event.scheduleId
@@ -194,29 +219,7 @@ class App extends Component {
             events={this.state.schedule}
             localizer={localizer}
             style={{ height: "100vh" }}
-            eventPropGetter={event => {
-              let newStyle = {
-                color: "black",
-                borderRadius: "8px",
-              };
-        
-              if (event.client === "JC"){
-                newStyle.backgroundColor = "#fd3153"
-              } else if (event.client === "SC"){
-                newStyle.backgroundColor = "#1ccb9e"
-              } else if (event.client === "KH"){
-                newStyle.backgroundColor = "#F480A8"
-              } else if (event.client === "SL"){
-                newStyle.backgroundColor = "#fda256"
-              } else if (event.client === "RM"){
-                newStyle.backgroundColor = "#8281fd"
-              }
-        
-              return {
-                className: "",
-                style: newStyle
-              };
-            }}
+            eventPropGetter={this.eventPropGetter}
             resources={resourceMap}
             resourceIdAccessor="resourceId"
             resourceTitleAccessor="resourceTitle"
