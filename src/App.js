@@ -37,6 +37,7 @@ class App extends Component {
       employee: [],
       visible: false,
       lastScheduleIndex: 450,
+      record: [],
       modalTitle: "",
       resourceId: null,
       dates: []
@@ -80,7 +81,7 @@ class App extends Component {
   };
 
   onCancel = () => {
-    this.setState({ visible: false });
+    this.setState({ visible: false, record: [] });
   };
 
   handleHouseChange = (value) => {
@@ -153,8 +154,13 @@ class App extends Component {
   };
 
   editSchedule = (record) => {
-    this.setState({ visible: true, modalTitle: "Edit Schedule" });
-    console.log(record);
+    this.setState({
+      visible: true,
+      record: record,
+      modalTitle: "Edit Schedule",
+      resourceId: record.resourceId,
+      dates: [moment(record.start), moment(record.end)]
+    });
   };
 
   componentDidMount() {

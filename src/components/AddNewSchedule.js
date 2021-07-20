@@ -6,6 +6,7 @@ const { Option } = Select;
 
 const AddNewSchedule = ({
   visible,
+  record,
   modalTitle,
   onCancel,
   handleHouseChange,
@@ -48,6 +49,7 @@ const AddNewSchedule = ({
           name="lastName"
           label="Last Name"
           rules={[{ required: true, message: "This information is required." }]}
+          initialValue={record.lastName}
         >
           <Input />
         </Form.Item>
@@ -56,6 +58,7 @@ const AddNewSchedule = ({
           name="firstName"
           label="First Name"
           rules={[{ required: true, message: "This information is required." }]}
+          initialValue={record.firstName}
         >
           <Input />
         </Form.Item>
@@ -77,6 +80,7 @@ const AddNewSchedule = ({
           name="client"
           label="Client"
           rules={[{ required: true, message: "This information is required." }]}
+          initialValue={record.client}
         >
           <Select>
             {employee.map((client) => (
