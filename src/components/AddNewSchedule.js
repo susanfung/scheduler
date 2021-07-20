@@ -1,30 +1,34 @@
-import React from 'react';
-import {
-  Modal,
-  Form,
-  Input,
-  DatePicker,
-  Select
-} from 'antd';
+import React from "react";
+import { Modal, Form, Input, DatePicker, Select } from "antd";
 
 const { RangePicker } = DatePicker;
 const { Option } = Select;
 
-const AddNewSchedule = ({ visible, onCancel, handleHouseChange, addSchedule, employee, employeeTagsData, resourceId, dates }) => {
+const AddNewSchedule = ({
+  visible,
+  modalTitle,
+  onCancel,
+  handleHouseChange,
+  addSchedule,
+  employee,
+  employeeTagsData,
+  resourceId,
+  dates
+}) => {
   const [form] = Form.useForm();
 
   const handleFormValuesChange = (changedValues) => {
     const formFieldName = Object.keys(changedValues)[0];
     if (formFieldName === "resourceId") {
       handleHouseChange(changedValues.resourceId);
-      form.setFieldsValue({client: undefined})
+      form.setFieldsValue({ client: undefined });
     }
   };
-  
+
   return (
     <Modal
       visible={visible}
-      title={<div>Add New Schedule</div>}
+      title={modalTitle}
       width={1000}
       onCancel={onCancel}
       onOk={() => {
@@ -35,7 +39,7 @@ const AddNewSchedule = ({ visible, onCancel, handleHouseChange, addSchedule, emp
             addSchedule(values);
           })
           .catch((info) => {
-            console.log('Validate Failed:', info);
+            console.log("Validate Failed:", info);
           });
       }}
     >
@@ -63,7 +67,7 @@ const AddNewSchedule = ({ visible, onCancel, handleHouseChange, addSchedule, emp
           initialValue={resourceId}
         >
           <Select>
-            {employeeTagsData.map(employee => (
+            {employeeTagsData.map((employee) => (
               <Option key={employee}>{employee}</Option>
             ))}
           </Select>
@@ -75,7 +79,7 @@ const AddNewSchedule = ({ visible, onCancel, handleHouseChange, addSchedule, emp
           rules={[{ required: true, message: "This information is required." }]}
         >
           <Select>
-            {employee.map(client => (
+            {employee.map((client) => (
               <Option key={client}>{client}</Option>
             ))}
           </Select>
@@ -87,7 +91,10 @@ const AddNewSchedule = ({ visible, onCancel, handleHouseChange, addSchedule, emp
           rules={[{ required: true, message: "This information is required." }]}
           initialValue={dates}
         >
-          <RangePicker showTime={{ format: 'HH:mm' }} format="YYYY-MM-DD HH:mm" />
+          <RangePicker
+            showTime={{ format: "HH:mm" }}
+            format="YYYY-MM-DD HH:mm"
+          />
         </Form.Item>
       </Form>
     </Modal>
