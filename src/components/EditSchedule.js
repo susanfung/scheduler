@@ -2,12 +2,12 @@ import React from "react";
 import { default as ScheduleForm } from "./Schedule-Form";
 import { Modal, Form } from "antd";
 
-const AddNewSchedule = ({
-  visible,
+const EditSchedule = ({
+  editScheduleModalVisible,
   record,
   onCancel,
   handleHouseChange,
-  addSchedule,
+  updateSchedule,
   employee,
   employeeTagsData,
   resourceId,
@@ -17,8 +17,8 @@ const AddNewSchedule = ({
 
   return (
     <Modal
-      visible={visible}
-      title="Add New Schedule"
+      visible={editScheduleModalVisible}
+      title="Edit Schedule"
       width={1000}
       onCancel={onCancel}
       onOk={() => {
@@ -26,7 +26,7 @@ const AddNewSchedule = ({
           .validateFields()
           .then((values) => {
             form.resetFields();
-            addSchedule(values);
+            updateSchedule(record.scheduleId, values);
           })
           .catch((info) => {
             console.log("Validate Failed:", info);
@@ -46,4 +46,4 @@ const AddNewSchedule = ({
   );
 };
 
-export default AddNewSchedule;
+export default EditSchedule;

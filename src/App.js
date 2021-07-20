@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import moment from "moment";
 import { findIndex } from "lodash";
 import { Calendar, momentLocalizer } from "react-big-calendar";
-import withDragAndDrop from "react-big-calendar/lib/addons/dragAndDrop";
 import "react-big-calendar/lib/addons/dragAndDrop/styles.css";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import "antd/dist/antd.css";
@@ -10,9 +9,9 @@ import "./App.css";
 import { Spin, Tag, Divider, Button } from "antd";
 import { PlusOutlined } from "@ant-design/icons";
 import { default as AddNewSchedule } from "./components/AddNewSchedule";
+import { default as EditSchedule } from "./components/EditSchedule";
 
 const localizer = momentLocalizer(moment);
-const Scheduler = withDragAndDrop(Calendar);
 const { CheckableTag } = Tag;
 
 const employeeTagsData = ["Employee #1720", "Employee #1755", "Employee #1775"];
@@ -36,9 +35,9 @@ class App extends Component {
       ],
       employee: [],
       visible: false,
+      editScheduleModalVisible: false,
       lastScheduleIndex: 450,
       record: [],
-      modalTitle: "",
       resourceId: null,
       dates: []
     };
@@ -68,20 +67,14 @@ class App extends Component {
     };
   };
 
-  addNewScheduleComponent = (props) => {
-    return (
-      <AddNewSchedule
-        {...props}
-        onCancel={this.onCancel}
-        handleHouseChange={this.handleHouseChange}
-        employeeTagsData={employeeTagsData}
-        addSchedule={this.addSchedule}
-      />
-    );
-  };
-
   onCancel = () => {
-    this.setState({ visible: false, record: [] });
+    this.setState({
+      visible: false,
+      editScheduleModalVisible: false,
+      record: [],
+      resourceId: null,
+      dates: []
+    });
   };
 
   handleHouseChange = (value) => {
@@ -105,18 +98,8 @@ class App extends Component {
     });
   };
 
-  addNewSchedule = (e) => {
-    this.setState({
-      visible: true,
-      modalTitle: "Add New Schedule",
-      resourceId: e.resourceId
-    });
-    e.resourceId === undefined
-      ? this.setState({ employee: [], dates: [] })
-      : this.setState({
-          employee: clientData[e.resourceId],
-          dates: [moment(e.start), moment(e.end)]
-        });
+  addNewSchedule = () => {
+    this.setState({ visible: true });
   };
 
   addSchedule = (newSchedule) => {
@@ -138,26 +121,37 @@ class App extends Component {
     });
   };
 
-  updateSchedule = (e) => {
+  updateSchedule = (scheduleId, values) => {
     let tempSchedules = this.state.schedule;
     let scheduleIndex = findIndex(this.state.schedule, {
-      scheduleId: e.event.scheduleId
+      scheduleId: scheduleId
     });
 
     tempSchedules[scheduleIndex] = {
       ...tempSchedules[scheduleIndex],
-      start: moment(e.start).toDate(),
-      end: moment(e.end).toDate()
+      lastName: values.lastName,
+      firstName: values.firstName,
+      title: values.lastName + ", " + values.firstName,
+      resourceId: values.resourceId,
+      client: values.client,
+      start: moment(values.dates[0]).toDate(),
+      end: moment(values.dates[1]).toDate(),
+      notes: values.notes
     };
 
-    this.setState({ schedule: tempSchedules });
+    this.setState({
+      schedule: tempSchedules,
+      editScheduleModalVisible: false,
+      record: [],
+      resourceId: null,
+      dates: []
+    });
   };
 
   editSchedule = (record) => {
     this.setState({
-      visible: true,
+      editScheduleModalVisible: true,
       record: record,
-      modalTitle: "Edit Schedule",
       resourceId: record.resourceId,
       dates: [moment(record.start), moment(record.end)]
     });
@@ -236,7 +230,7 @@ class App extends Component {
         <Divider />
 
         <Spin spinning={this.state.loading} tip="Loading...">
-          <Scheduler
+          <Calendar
             selectable
             resizable
             defaultDate={moment().toDate()}
@@ -250,16 +244,25 @@ class App extends Component {
             resources={resourceMap}
             resourceIdAccessor="resourceId"
             resourceTitleAccessor="resourceTitle"
-            onEventDrop={this.updateSchedule}
-            onSelectSlot={this.addNewSchedule}
             onSelectEvent={(record) => this.editSchedule(record)}
           />
         </Spin>
 
-        {this.state.dates.length > 0 &&
-          this.addNewScheduleComponent(this.state)}
+        <AddNewSchedule
+          {...this.state}
+          onCancel={this.onCancel}
+          handleHouseChange={this.handleHouseChange}
+          employeeTagsData={employeeTagsData}
+          addSchedule={this.addSchedule}
+        />
 
-        {this.addNewScheduleComponent(this.state)}
+        <EditSchedule
+          {...this.state}
+          onCancel={this.onCancel}
+          handleHouseChange={this.handleHouseChange}
+          employeeTagsData={employeeTagsData}
+          updateSchedule={this.updateSchedule}
+        />
       </>
     );
   }
